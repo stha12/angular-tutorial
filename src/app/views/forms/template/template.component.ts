@@ -9,13 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class TemplateComponent implements OnInit {
 formValues = {
   id: '',
-  name: 'Sudivya'
+  name: ''
 }
 
 submitted = false;
 
   onSubmit() { 
-    console.log("onSubmit called");
+    alert("onSubmit called");
     this.submitted = true;
    }
   constructor() { }

@@ -43,7 +43,7 @@ title = 'login';
         
         for (const key in control.errors) {
           this.formErrors[field] += messages[key] + ' ';
-          console.log(this.formErrors[field]);
+          alert(this.formErrors[field]);
         }
       }
     }
@@ -62,6 +62,6 @@ title = 'login';
   };
   onSubmit() {
     this.submitted = true;
-    console.log('onSubmit called');
+    alert('onSubmit called');
   }
 }
