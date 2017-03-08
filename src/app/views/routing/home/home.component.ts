@@ -7,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  title = 'Routes';
+  submenu = [{
+    name: 'Guards',
+    path: 'guards'
+  }, {
+    name: 'Form-links',
+    path: 'params'
+  }, {
+    name: 'Users',
+    path: 'user'
+  }];
+
   constructor() { }
 
   ngOnInit() {
